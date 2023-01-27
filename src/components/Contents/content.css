@@ -1,0 +1,12 @@
+*{
+    font-family: 'Sora';
+} 
+.paragraphTitle {
+    font-size: 2.25rem;
+    text-shadow: 0px 7px 15px rgba(255, 255, 255, 0.23);
+    align-self: flex-start;
+}
+.paragraphContent {
+    font-size: 1.25rem;
+    max-width: 700px;
+}

@@ -3,5 +3,8 @@ body {
     padding: 0;
     background-color: #0B0C0D;
     color:aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 

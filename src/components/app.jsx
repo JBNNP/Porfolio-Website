@@ -1,8 +1,9 @@
 import React from "react";
 import Title from "../components/Title/Title";
 import Navbar from "./Navbar/Navbar";
-//DITO IBIBIGAY LAHAT OK?
-//OK PO IDOL
+import Content from "./Contents/content";
+
+//DITO IBIBIGAY LAHAT
 
 
 function App(){
@@ -10,6 +11,7 @@ function App(){
         <div>
         <Navbar />
         <Title />
+        <Content />
         </div>
     );
 }
