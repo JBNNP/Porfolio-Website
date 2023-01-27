@@ -1,0 +1,28 @@
+.btnWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 54px;
+}
+
+.navBtn {
+  font-family: 'Sora';
+  font-size: 1.25rem;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.navBtn:last-child {
+  border: 1px solid white;
+  border-radius: 22px;
+  width: 166px;
+  height: 46px;
+}
+
+.btnPositioning {
+  position: absolute;
+  right: 161px;
+  top: 58px;
+}
