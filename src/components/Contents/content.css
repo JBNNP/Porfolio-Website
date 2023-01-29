@@ -1,12 +1,25 @@
 *{
     font-family: 'Sora';
 } 
+.contentWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 32px; /*Creates a gap between the title and the content*/
+}
 .paragraphTitle {
     font-size: 2.25rem;
     text-shadow: 0px 7px 15px rgba(255, 255, 255, 0.23);
     align-self: flex-start;
+    margin: 0;
 }
 .paragraphContent {
     font-size: 1.25rem;
     max-width: 700px;
+    margin: 0 0 240px 0;
+}
+p{
+    margin: 0 0 24px 0;
 }

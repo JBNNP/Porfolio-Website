@@ -1,0 +1,17 @@
+.icons {
+    text-align: center;
+    padding-top: 24px;
+    fill: white;
+}
+g,path{
+    
+    transition: 0.3s all ease-in-out;
+    transform-origin: 50% 50%;
+}
+
+#HTML5:hover,#JS:hover,#CSS3:hover,#GITHUB:hover, 
+#GIT:hover, #VSCODE:hover, #MONGODB:hover,#EXPRESS:hover,#REACTJS:hover,
+#NODEJS:hover {
+  cursor: pointer;
+  transform: scale(0.7);
+}
