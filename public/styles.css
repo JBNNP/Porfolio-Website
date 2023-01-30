@@ -1,9 +1,5 @@
 body { 
     margin: 0;
     padding: 0;
-    background-color: #0B0C0D;
     color:aliceblue;
-    display: flex; /*This will center all the items in the page*/
-    align-items: center;
-    flex-direction: column;
 }

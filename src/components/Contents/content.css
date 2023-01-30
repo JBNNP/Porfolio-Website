@@ -20,6 +20,10 @@
     max-width: 700px;
     margin: 0 0 240px 0;
 }
-p{
+.paragraphContent:last-child{
+    margin: 0 0 155px 0;
+}
+/* must fix this issue because it will affect other p as well */
+p{ 
     margin: 0 0 24px 0;
 }
