@@ -23,7 +23,10 @@
 .paragraphContent:last-child{
     margin: 0 0 155px 0;
 }
-/* must fix this issue because it will affect other p as well */
+/* must fix this issue because it will affect other p as well 
+create a dynamic stuff I guess?*/
 p{ 
     margin: 0 0 24px 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
